@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="gimn-rossii.wav" />
+    <None Remove="gimn.wav" />
+    <None Remove="Vagner.wav" />
+    <None Remove="VA_gner.wav.wav" />
+    <None Remove="YArmak_-_22_62943013.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="VA_gner.wav.wav" />
+  </ItemGroup>
+
+</Project>
